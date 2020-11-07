@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	width: 1100px;
+	margin: auto;
+}
+header{
+	background: url("images/scn.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.navitems{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.navitems li{
+display: inline-block;
+}
+.navitems li a{
+	color: white;
+	text-decoration: none;
+	padding: 5px 30px;
+	font-family: calibre;
+	font-size: 20px;
+
+}
+.navitems li a:hover{
+	background: white;
+	color: blue;
+}
+.logo img{
+	width: 100px;
+	float: left;
+	height: auto;
+}
+.WelcomeText{
+	position: fixed;
+	width: 600px;
+	margin: 25% 30%;
+	text-align: center;
+}
+.WelcomeText h1{
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 35px;
+
+}
+.WelcomeText a{
+	border: 1px solid white;
+	padding: 10px 30px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 20px;
+	margin-top: 15px;
+	display: inline-block;
+	color: #fff;
+}
+.WelcomeText a:hover{
+	background: cyan;
+	color: black;
+}
